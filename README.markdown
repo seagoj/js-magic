@@ -1,6 +1,7 @@
 ## af-magic-square
 ---
-Theme based on [oh-my-zsh/af-magic](https://github.com/robbyrussell/oh-my-zsh) theme.
+Theme based on [oh-my-zsh/af-magic](https://github.com/robbyrussell/oh-my-zsh)
+theme by [Andy Fleming](https://github.com/andyfleming).
 
 ### Differences
 * square brackets surrounding the git-info

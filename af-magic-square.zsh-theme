@@ -1,12 +1,16 @@
-# af-magic.zsh-theme
+# af-magic-square.zsh-theme
+#
+# Author: Jeremy Seago
+# URL: http://seagoj.com
+# Repo: https://github.com/seagoj/af-magic-square
+#
+# This is a very slightly modified version of Andy Fleming's af-magic theme, so I've left
+# his author information below.
 #
 # Author: Andy Fleming
 # URL: http://andyfleming.com/
 # Repo: https://github.com/andyfleming/oh-my-zsh
 # Direct Link: https://github.com/andyfleming/oh-my-zsh/blob/master/themes/af-magic.zsh-theme
-#
-# Created on:		June 19, 2012
-# Last modified on:	June 20, 2012
 
 
 
@@ -14,7 +18,7 @@ if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="green"; fi
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
 # primary prompt
-PROMPT='$FG[237]------------------------------------------------------------%{$reset_color%}
+PROMPT='$FG[237]%D{[%I:%M:%S]}------------------------------------------------------------%{$reset_color%}
 $FG[032]%~\
 $(git_prompt_info) \
 $FG[105]%(!.#.»)%{$reset_color%} '
