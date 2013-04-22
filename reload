@@ -3,5 +3,5 @@
 git commit -a -m $1 &&
 git push &&
 sudo rm -R ~/.antigen/repos/*seagoj*
-antigen-theme seagoj/af-magic-square af-magic-square
+#antigen-theme seagoj/af-magic-square af-magic-square
 
