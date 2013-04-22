@@ -12,8 +12,6 @@
 # Repo: https://github.com/andyfleming/oh-my-zsh
 # Direct Link: https://github.com/andyfleming/oh-my-zsh/blob/master/themes/af-magic.zsh-theme
 
-
-
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="green"; fi
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
@@ -24,7 +22,6 @@ $(git_prompt_info) \
 $FG[105]%(!.#.»)%{$reset_color%} '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 RPS1='${return_code}'
-
 
 # color vars
 eval my_gray='$FG[237]'
@@ -37,13 +34,5 @@ RPROMPT='$my_gray%n@%m%{$reset_color%}%'
 ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075]["
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY="$my_orange*%{$reset_color%}"
-
-#ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[cyan]%} ✈"
-#ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[yellow]%} ✭"
-#ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%} ✗"
-#ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%} ➦"
-#ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[magenta]%} ✂"
-#ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[grey]%} ✱"
-
 ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[075]]%{$reset_color%}"
 
