@@ -1,11 +1,14 @@
-## Contributing
+## af-magic-square
+---
+Theme based on oh-my-zsh/af-magic theme.
 
-### 1. Create an Issue on GitHub
+### Differences
+* square brackets surrounding the git-info
+* dropped the branch: tag
 
-### 2. Fork & Create a Feature Branch
+### Try It Out via Antigen
+    $ antigen-theme seagoj/af-magic-square af-magic-square
 
-### 3. Get the test suite running
-
-### 4. Implement your fix or feature
-
-### 5. Make a pull request
+### Installation via Antigen
+    # Copy the below lines to your antigen configuration
+    antigen-theme seagoj/af-magic-square af-magic-square
