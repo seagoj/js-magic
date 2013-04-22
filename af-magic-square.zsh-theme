@@ -31,8 +31,8 @@ eval my_orange='$FG[214]'
 RPROMPT='$(git_prompt_info)'
 
 # git settings
-ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075]["
+ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075]"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY="$my_orange*%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[075]]%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[075]%{$reset_color%}"
 
