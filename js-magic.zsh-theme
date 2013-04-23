@@ -2,11 +2,12 @@
 #
 # Author: Jeremy Seago
 # URL: http://seagoj.com
-# Repo: https://github.com/seagoj/af-magic-square
+# Repo: https://github.com/seagoj/js-magic
 #
-# This is a very slightly modified version of Andy Fleming's af-magic theme, so I've left
-# his author information below.
-#
+# Although I've modified the layout, I've blatently stolen the color scheme and
+# code base from Andy Fleming's af-magic theme in the oh-my-zsh repo, so I've
+# left his author information below.
+# 
 # Author: Andy Fleming
 # URL: http://andyfleming.com/
 # Repo: https://github.com/andyfleming/oh-my-zsh
